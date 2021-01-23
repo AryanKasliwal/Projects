@@ -1,0 +1,27 @@
+#button-right{
+    border-radius: 10px;
+    font-size: 16px;
+    float: right;
+    width: 150px;
+    height: 45px;
+    background-color: #274e72;
+    color: white;
+    cursor: pointer;
+}
+
+#button-right:hover{
+    background-color: #122435;
+}
+
+#movie-description{
+    margin-left: 2%;
+    text-align: left;
+    float: left;
+}
+
+video{
+    float: left;
+    margin-top: 15px;
+    width: 600px;
+    height: 400px;
+}

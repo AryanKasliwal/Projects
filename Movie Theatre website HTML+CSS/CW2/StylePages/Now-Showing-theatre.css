@@ -1,0 +1,58 @@
+.buttons{
+    float: right;
+    width: 150px;
+    height: 37px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #274e72;
+    color: white;
+    cursor: pointer;
+}
+   
+.buttons:hover{
+    background-color: #111111;
+}
+
+.float-left{
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 2%;
+    float: left;
+}
+
+#proceed-button{
+    width: 150px;
+    height: 37px;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #274e72;
+    color: white;
+    cursor: pointer;
+}
+
+#proceed-button:hover{
+    background-color: #111111;
+}
+
+#map{
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+#address{
+    text-align: left;
+    float: left;
+    font-weight: bold;
+    margin-left: 2%;
+    height: 400px;
+}
+
+h1{
+    font-size: 28px;
+}
