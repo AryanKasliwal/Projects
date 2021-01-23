@@ -1,0 +1,165 @@
+.disabled-link{
+    color: #c9c9c9;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+.disabled-link:hover{
+    background-color:  #21415f;
+}
+
+.blue-strip-background{
+    box-shadow: 10px 15px #152e46;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #21415f;
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+    background-image: linear-gradient(to right, #21415f, #c9c9c9);
+}
+
+.alternatewhite{
+    box-shadow:10px 15px #bfbfbf;
+    background-color: #eeeeee;
+}
+
+.thumbnail{
+    cursor: pointer;
+    float: left;
+    margin-top: 1.5%;
+    width: 150px;
+    height: 110px;
+}
+
+.button{
+    float: right;
+    width: 150px;
+    height: 37px;
+    margin-top: -4%;
+    margin-left: 50%;
+    margin-right: 2%;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #274e72;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #122435;
+}
+
+.description-title{
+    font-weight: bold;
+}
+
+.movie-descriptions{
+    text-align: left;
+    float: left;
+    margin-left: 200px;
+}
+
+a:link, a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    background-color: #21415f;
+}
+
+.footer-content{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#body-container{
+    margin: 0%;
+    padding: 0%;
+
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 99%;
+    background-color: #c9c9c9;
+    font-family: sans-serif;
+}
+
+@keyframes logo{
+    0%{left: 46%; top: 0px;}
+    10%{left: 46%; top: 100px;}
+    50%{left: 0%; top: 100px;}
+    90%{left: 46%; top: 100px;}
+    100%{left: 46%; top: 0px;}
+}
+
+#animated-logo{
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+#company-name{
+    text-align: center;
+    font-size: 46px;
+}
+
+#menu{
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+    width: 10%;
+    height: fit-content;
+    color: whitesmoke;
+    background-color: #122435;
+    padding: 2%;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4%;
+}
+
+#content{
+    top: 0px;
+    left: 0px;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    margin-left: 2%;
+    float: left;
+    padding: 2%;
+    width: fill;
+    background-color: #d9d9d9;
+}
+
+header{
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 3%; 
+    padding-bottom: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35;
+    color: gray;
+    background-color: #152e46;
+}
+
+footer{
+    bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #0d1a26;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
