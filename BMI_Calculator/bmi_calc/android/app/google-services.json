@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717512199039",
+    "firebase_url": "https://bmicalc-baa9e.firebaseio.com",
+    "project_id": "bmicalc-baa9e",
+    "storage_bucket": "bmicalc-baa9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717512199039:android:a92535c37613f83a24284a",
+        "android_client_info": {
+          "package_name": "com.aryutk.bmi_calc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717512199039-8ab1fb51puir3bkhtfj62coqjtpb6b4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXQzyG3qtG0rewL1GFbrF6xVQ_axVO60s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717512199039-8ab1fb51puir3bkhtfj62coqjtpb6b4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
