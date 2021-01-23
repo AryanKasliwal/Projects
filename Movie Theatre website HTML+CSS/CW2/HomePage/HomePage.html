@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="../StylePages/Common-style.css">
+    <link rel="stylesheet" href="../StylePages/home-page.css">
+</head>
+<body>
+    <div id="body-container">
+        <header>
+            <div id="animated-logo">
+                <img src="../Images/filmreel.png" alt="">
+            </div>
+            <div id="company-name">
+                AKTheatres
+            </div>
+        </header>
+
+        <section>
+
+            <div id="menu">
+                <a href="../HomePage/HomePage.html" class="disabled-link">Home</a>
+                <hr>
+                <a href="../NowShowingPage/Now-Showing-main.html" target="_blank">Now Showing</a> 
+                <hr>
+                <a href="../TicketPage/Ticket-page.html" target="_blank">Tickets</a>
+                <hr>
+            </div>
+
+            <div id="content">
+
+                <section>
+
+                    <video controls>
+                        <source src="https://courses.cs.cityu.edu.hk/cs2204/video/casablanca-s.mp4">
+                        <source src="https://courses.cs.cityu.edu.hk/cs2204/video/casablanca-s.ogg">
+                        Your browser does not support this video format.
+                    </video>
+
+                    <div id="movie-description">
+                        <h2>Casablanca</h2>
+                        <hr>
+                        <span class="description-title">Cast:</span> Humphrey Bogart, Ingrid Bergman, Paul Henreid
+                        <hr>
+                        <span class="description-title">Director:</span>  Michael Curtiz
+                        <hr>
+                        <span class="description-title">Duration:</span> 1Hr 42m
+                        <hr>
+                        <button id="button-right">
+                            <a href="../NowShowingPage/Now-Showing-main.html">Buy Tickets</a>
+                        </button> 
+                    </div>
+
+                </section>
+
+                <div class="blue-strip-background">
+                    <h1>Now Showing</h1>
+                </div>
+
+                <section>
+                    <img class="thumbnail" src="../Images/bigbuck.jpg" alt="Image from the movie BigBuck">
+
+                    <div class="movie-descriptions">
+                        <h3>BigBuck</h3>
+                        <hr>
+                        <span class="description-title">Screenplay:</span> Sacha Goedegebure
+                        <hr>
+                        <span class="description-title">Director:</span> Sacha Goedegebure
+                        <hr>
+                        <span class="description-title">Duration:</span> 12 mins
+                        <hr>
+                    </div>
+
+                    
+                    <button class="button">
+                        <a href="../NowShowingPage/Now-Showing-main.html">Buy Tickets</a>
+                    </button>
+                    
+                    <button class="button">
+                        <a href="../Trailers/Bigbuck-trailer.html" target="_blank">Watch Trailer</a>
+                    </button>
+                </section>
+                <script>
+                    var btn = document.getElementById("button");
+                    btn.style.alignSelf
+                </script>
+                <div class="alternatewhite">
+                    <section>
+                        <img class="thumbnail" src="../Images/barbecue.jpg" alt="Image from the movie Barbecue">
+    
+                        <div class="movie-descriptions">
+                            <h3>Barbecue</h3>
+                            <hr>
+                            <span class="description-title">Cast:</span> Katsunori Yashima, Lwazi Dlaminilf
+                            <hr>
+                            <span class="description-title">Director:</span> Éric Lavaine
+                            <hr>
+                            <span class="description-title">Duration:</span> 1 Hr 38 Mins
+                            <hr>
+                        </div>
+    
+                        <button class="button">
+                            <a href="../NowShowingPage/Now-Showing-main.html">Buy Tickets</a>
+                        </button>    
+    
+                        <button class="button">
+                            <a href="../Trailers/Barbecue-trailer.html" target="_blank">Watch Trailer</a>
+                        </button>
+                    </section>
+                </div>
+
+                <section>
+                    <img class="thumbnail" src="../Images/chocolate.jpg" alt="Image from the movie Chocolate">
+
+                    <div class="movie-descriptions">
+                        <h3>Chocolate</h3>
+                        <hr>
+                        <span class="description-title">Cast:</span> Juliette Binoche, Johnny Depp
+                        <hr>
+                        <span class="description-title">Director:</span> Vivek Agnihotri
+                        <hr>
+                        <span class="description-title">Duration:</span> 2 Hr 42 Mins
+                        <hr>
+                    </div>
+
+                    <button class="button">
+                        <a href="../NowShowingPage/Now-Showing-main.html">Buy Tickets</a>
+                    </button>    
+                    
+                    <button class="button">
+                        <a href="../Trailers/Chocolate-trailer.html" target="_blank">Watch Trailer</a>
+                    </button>
+                </section>
+
+                <div class="blue-strip-background">
+                    <h1>Coming Soon</h1>
+                </div>
+
+                <div class="alternatewhite">
+                    <section>
+                        <img class="thumbnail" src="../Images/nature.jpg" alt="Image from the movie Nature">
+    
+                        <div class="movie-descriptions">
+                            <h3>Nature</h3>
+                            <hr>
+                            <span class="description-title">Screenplay:</span> Ed Helms
+                            <hr>
+                            <span class="description-title">Director:</span> Jeff Wilson, Alastair Fothergill
+                            <hr>
+                            <span class="description-title">Duration:</span> 1 Hr 16 mins
+                            <hr>
+                        </div>
+    
+                        <button class="button">
+                            <a href="../NowShowingPage/Now-Showing-main.html">Buy Tickets</a>
+                        </button>  
+    
+                        <button class="button">
+                            <a href="../Trailers/Nature-trailer.html" target="_blank">Watch Trailer</a>
+                        </button>
+                    </section>
+                </div>
+
+                <section>
+                    <img class="thumbnail" src="../Images/wildlife.jpg" alt="Image from the movie Wildlife">
+
+                    <div class="movie-descriptions">
+                        <h3>Wildlife</h3>
+                        <hr>
+                        <span class="description-title">Cast:</span> Jake Gyllenhaal, Carey Mulligan
+                        <hr>
+                        <span class="description-title">Director:</span> Paul Dano
+                        <hr>
+                        <span class="description-title">Duration:</span> 1 Hr 45 Mins
+                        <hr>
+                    </div>
+
+                    <button class="button">
+                        <a href="../NowShowingPage/Now-Showing-main.html">Buy Tickets</a>
+                    </button> 
+                    
+                    <button class="button">
+                        <a href="../Trailers/Wildlife-trailer.html" target="_blank">Watch Trailer</a>
+                    </button>
+                </section>
+
+                <div class="alternatewhite">
+                    <section>
+                        <img class="thumbnail" src="../Images/wonders.jpg" alt="Image from the movie Wonders">
+    
+                        <div class="movie-descriptions">
+                            <h3>Wonders</h3>
+                            <hr>
+                            <span class="description-title">Cast:</span> Jacob Tremblay, Owen Wilson
+                            <hr>
+                            <span class="description-title">Director:</span> Stephen Chbosky
+                            <hr>
+                            <span class="description-title">Duration:</span> 1 Hr 53 Mins
+                            <hr>
+                        </div>
+    
+                        <button class="button">
+                            <a href="../NowShowingPage/Now-Showing-main.html">Buy Tickets</a>
+                        </button> 
+                        
+                        <button class="button">
+                            <a href="../Trailers/Wonders-trailer.html" target="_blank">Watch Trailer</a>
+                        </button>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                Copyright of resources belong to corresponding copyright owners - for educational purposes only
+            </p>
+            <p>
+                | <span class="footer-content"><a class="disabled-link" href="../HomePage/HomePage.html">Home</a></span>
+                | <span class="footer-content"><a href="../DesignPage/Design-page.html" target="_blank">Design Page</a></span>
+                |
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

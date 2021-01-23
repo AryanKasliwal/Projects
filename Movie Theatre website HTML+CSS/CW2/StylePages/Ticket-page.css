@@ -1,0 +1,104 @@
+.rows{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.td{
+    text-align: center;
+    width: 55px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td:hover{
+    cursor: pointer;
+    background-color: #122435;
+    color: white;
+}
+
+.seats{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    float: left;
+}
+
+#buy{
+    width: 150px;
+    height: 37px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #274e72;
+    color: white;
+    cursor: pointer;
+}
+
+#buy:hover{
+    background-color: #122435;
+}
+
+#movie-description{
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+    background-color: #21415f;
+    color: white;
+}
+
+#seat-description{
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+    background-color: #21415f;
+    color: white;
+}
+
+#body-container{
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+
+    top: 0%;
+    left: 0%;
+
+
+    background-color: gray;
+    width: 100%;
+    height: 99%;
+}
+
+tr{
+    height: 55px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    width: 55px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
