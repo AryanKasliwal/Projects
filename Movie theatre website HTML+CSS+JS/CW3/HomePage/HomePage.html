@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../StylePages/Common-style.css">
+    <link rel="stylesheet" href="../StylePages/home-page.css">
+    <script src="http://courses.cs.cityu.edu.hk/cs2204/cw3/cinemas.js"></script>
+    <script src="../JavaScript files/movies.js"></script>
+    <script src="../JavaScript files/HomePage.js"></script>
+</head>
+<body>
+    <div id="body-container">
+        <header>
+            <div id="animated-logo">
+                <img src="../Images/filmreel.png" alt="">
+            </div>
+            <div id="company-name">
+                AKTheatres
+            </div>
+        </header>
+        <section>
+            <div id="menu">
+                <a href="../HomePage/HomePage.html" class="disabled-link">Home</a>
+                <hr>
+                <a href="../NowShowingPage/Now-showing-page.html" target="_blank">Now Showing</a> 
+                <hr>
+                <a href="../TicketPage/Ticket-page.html" target="_blank">Tickets</a>
+                <hr>
+            </div>
+
+            <div id="content">
+                <section>
+
+                    <video controls id="vidPlayer">
+                        Your browser does not support this video format.
+                    </video>
+
+                    <div id="movie-description">
+                        <h2 id="videoMovieTitle"></h2>
+                        <hr>
+                        <span class="description-title">Cast: </span> <span id="videoMovieCast" ></span>
+                        <hr>
+                        <span class="description-title">Director:</span> <span id="videoMovieDirector"></span>
+                        <hr>
+                        <span class="description-title">Duration:</span> <span id="videoMovieDuration" ></span> mins
+                        <hr>
+                        <button id="button-right">
+                            <a href="../NowShowingPage/Now-showing-page.html" target="_blank">Buy Tickets</a>
+                        </button>
+                    </div>
+
+                    <script>
+                        var firstPlay = true;
+                        function playVideo(videoNum){
+                            if (firstPlay){
+                                if (videoNum == 0){
+                                    document.getElementById("vidPlayer").setAttribute("src", videoSource[videoNum]);
+                                    document.getElementById("vidPlayer").load();
+                                    firstPlay = false;
+                                }
+                                else{
+                                    document.getElementById("vidPlayer").setAttribute("src", videoSource[videoNum]);
+                                    document.getElementById("vidPlayer").load();
+                                    document.getElementById("vidPlayer").play();
+                                }
+                            }
+                            else {
+                                document.getElementById("vidPlayer").setAttribute("src", videoSource[videoNum]);
+                                document.getElementById("vidPlayer").load();
+                                document.getElementById("vidPlayer").play();
+                            }
+                        }
+                        document.getElementById("vidPlayer").addEventListener('ended', nextVideos, false);
+
+                        nextVideos();
+                    </script>
+                </section>
+
+                <section>
+                    <div class="blue-strip-background">
+                        <h1>Now Showing</h1>
+                    </div>
+
+                    <div id="MoviesList">
+                        
+                    </div>
+
+                    <script>
+                        nowShowing(nowShowingMovies);
+                    </script>
+                </section>
+
+                <div class="blue-strip-background">
+                    <h1>Coming Soon</h1>
+                </div>
+
+                <div id="MovieList">
+                    
+                </div>
+
+                <script>
+                    upMovies(upcomingMovies);
+                </script>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                Copyright of resources belong to corresponding copyright owners - for educational purposes only
+            </p>
+            <p>
+                | <span class="footer-content"><a class="disabled-link" href="../HomePage/HomePage.html">Home</a></span>
+                | <span class="footer-content"><a href="../DesignPage/Design-page.html" target="_blank">Design Page</a></span>
+                |
+            </p>
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@media print{
+    #menu,footer,header{
+        visibility: hidden;
+    }
+} 
+
+.tickets{
+    text-align: left;
+    padding: 3%;
+    margin-bottom: 3%;
+    page-break-after:always;
+}
