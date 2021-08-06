@@ -1,0 +1,3 @@
+Changes made for 3103 assignment 2:
+
+line 107-108: changed the order for printstatus("clfy", 0); and char *originalText = buffer->removeArticle();.
