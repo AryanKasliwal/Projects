@@ -1,0 +1,28 @@
+//// Aryan Girish Kasliwal
+//// SID: 55972222
+
+My program can be executed by running the file and passing the scheduling method (FCFS/RR/FB) as arguments.
+Further, the input for the file containing processes as well as the destination of the output file needs to be passed.
+Once this is done correctly, the program will run the given processes in the specified scheduling method and print the result of CPU runtimes to the specified output path.
+
+The possibilities of outputs are endless. My program is able to generate accurate outputs for the given sample files as well as some samples I created by myself.
+The general format of the output is the following:
+The processes are outputted in the order in which they finish. Each process pid is printed and on the next line the start and stop running time in CPU is printed.
+If a process with PID x starts at time a and ends at time b, say, and again starts at time c and ends at time d then the output is as follows:
+
+process x
+a b c d
+
+Following this output format, one sample output for a given sample file is as follows:
+
+Running the file: ./55972222 FCFS sample_0.txt 55972222.txt
+Output:
+
+process 1
+3 4 18 22 
+process 0
+0 3 13 18 27 31 
+process 3
+7 13 31 36 
+process 2
+4 7 22 27 36 41 
