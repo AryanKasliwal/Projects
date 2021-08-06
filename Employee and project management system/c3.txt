@@ -1,0 +1,20 @@
+startNewDay|01-Jan-2021
+
+createProject|TSUEN WAN GAS
+createProject
+
+startNewDay|02-Feb-2021
+createProject|KWAI CHUNG SEWAGE
+
+listProjects
+
+undo
+listProjects
+createProject|CENTRIAL OIL
+createProject|KWAI CHUNG SEWAGE
+redo
+listProjects
+undo
+undo
+undo
+listProjects

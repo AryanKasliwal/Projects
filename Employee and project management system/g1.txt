@@ -1,0 +1,73 @@
+startNewDay|01-Jan-2021
+
+hire|Bob
+hire|Adam
+hire|Samuel
+
+hire|Andrew
+hire|Aron
+hire|Brian
+hire|Bill
+hire|Steven
+hire|Simon
+hire|Spencer
+hire|Sawyer
+
+setupTeam|All-rounder|Adam
+
+startNewDay|01-Feb-2021
+setupTeam|SW Experts|Samuel 
+setupTeam|SW Experts B|Bob
+
+joinTeam|All-rounder|Andrew
+joinTeam|All-rounder|Aron
+joinTeam|SW Experts B|Brian
+joinTeam|SW Experts B|Bill
+joinTeam|SW Experts|Steven
+joinTeam|SW Experts|Simon
+joinTeam|SW Experts|Spencer
+joinTeam|SW Experts|Sawyer
+
+listEmployees
+listTeams
+
+createProject|TSUEN WAN GAS
+createProject|KWAI CHUNG CABLE
+createProject|KWAI CHUNG SEWAGE
+
+startNewDay|02-Feb-2021
+assignProject|P001|All-rounder
+
+startNewDay|18-Feb-2021
+assignProject|P003|SW Experts|Aron|Andrew|Bob|Bill
+
+listProjects
+listProjectStaff|P001
+listProjectStaff|P003
+
+startNewDay|01-Mar-2021
+createExtensionProject|P002|Phase 2 for KC Cable
+
+startNewDay|18-Mar-2021
+createExtensionProject|P003|KC Sewage Fixes 2021
+createExtensionProject|P003|Phase 2 for KC Sewage
+
+assignProject|P003-E2|SW Experts B|Andrew
+
+startNewDay|25-Mar-2021
+markCompletion|P001
+markCompletion|P003-E2
+
+listTeams
+listProjects
+listTeamProjects
+listProjectStaff|P003
+listProjectStaff|P003-E2
+listStaffParticipations
+
+giveAssignmentSuggestions|P003-E1
+giveAssignmentSuggestions|P002-E1
+
+assignProject|P003-E1|SW Experts B|Spencer
+createExtensionProject|P003|Phase 3 for KC Sewage
+giveAssignmentSuggestions|P003-E3

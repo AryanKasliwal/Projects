@@ -1,0 +1,9 @@
+startNewDay|01-Jan-2021
+
+createProject|TSUEN WAN GAS
+createProject|KWAI CHUNG CABLE
+
+startNewDay|02-Feb-2021
+createProject|KWAI CHUNG SEWAGE
+
+listProjects

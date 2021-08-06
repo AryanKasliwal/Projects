@@ -1,0 +1,30 @@
+startNewDay|01-Jan-2021
+
+hire|Adam
+hire|Gabriel
+
+setupTeam|All-rounder|Adam
+setupTeam|Gas+Oil Gang|Gabriel
+
+listTeams
+
+startNewDay|05-Feb-2021
+
+createProject|TSUEN WAN GAS
+createProject|KWAI CHUNG CABLE
+
+assignProject|P003|Gas+Oil Gang
+assignProject|P001|Sewage+Oil Gang
+assignProject|P001|Gas+Oil Gang
+assignProject|P001|All-rounder
+listTeamProjects
+listProjects
+
+startNewDay|12-Feb-2021
+markCompletion|P003
+markCompletion|P002
+markCompletion|P001
+markCompletion|P001
+
+listProjects
+listTeamProjects

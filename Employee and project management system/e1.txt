@@ -1,0 +1,48 @@
+startNewDay|01-Jan-2021
+
+hire|Bob
+hire|Adam
+hire|Gabriel
+hire|Samuel
+
+setupTeam|All-rounder|Adam
+setupTeam|Gas+Oil Gang|Gabriel
+
+startNewDay|01-Feb-2021
+setupTeam|SW Experts|Samuel 
+setupTeam|SW Experts B|Bob
+
+createProject|TSUEN WAN GAS
+createProject|KWAI CHUNG CABLE
+createProject|KWAI CHUNG SEWAGE
+assignProject|P001|All-rounder
+
+listProjects
+listTeamProjects
+
+startNewDay|01-Mar-2021
+createExtensionProject|P002|Phase 2 for KC Cable
+createProject|TAI WAI GAS
+
+startNewDay|18-Mar-2021
+createExtensionProject|P004|TW Gas Enhancement
+createExtensionProject|P003|KC Sewage Fixes 2021
+createExtensionProject|P003|Phase 2 for KC Sewage
+listProjects
+
+assignProject|P003-E2|SW Experts B
+
+startNewDay|22-Mar-2021
+assignProject|P004|Gas+Oil Gang
+assignProject|P004-E1|All-rounder
+assignProject|P002-E1|All-rounder
+listProjects
+listTeamProjects
+
+startNewDay|25-Mar-2021
+markCompletion|P001
+markCompletion|P004-E1
+markCompletion|P004
+
+listProjects
+listTeamProjects

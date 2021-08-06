@@ -1,0 +1,121 @@
+startNewDay|01-Jan-2021
+
+hire|Bob
+hire|Adam
+hire|Gabriel
+hire|Samuel
+hire|Samuel
+hire|Peter
+hire
+
+hire|Andrew
+hire|Aron
+hire|Brian
+hire|Bill
+hire|Gavin
+hire|George
+hire|Steven
+hire|Simon
+hire|Spencer
+hire|Sawyer
+
+setupTeam|All-rounder|Adam
+setupTeam|All-rounder|Peter
+setupTeam|Gas+Oil Gang|Adam
+setupTeam|Gas+Oil Gang|Gabriel
+
+startNewDay|01-Feb-2021
+setupTeam|SW Experts|Samuel 
+setupTeam|SW Experts B|Bob
+
+listTeams
+
+joinTeam|All-rounder|Andrew
+joinTeam|All-rounder|Aron
+joinTeam|Multi-able|Brian
+joinTeam|SW Experts B|Aron
+joinTeam|SW Experts B|Helena
+joinTeam|SW Experts B|Brian
+joinTeam|SW Experts B|Bill
+joinTeam|Gas+Oil Gang|Gavin
+joinTeam|Gas+Oil Gang|George
+joinTeam|SW Experts|Steven
+joinTeam|SW Experts|Simon
+joinTeam|SW Experts|Spencer
+joinTeam|SW Experts|Sawyer
+
+listEmployees
+listTeams
+
+createProject|TSUEN WAN GAS
+createProject|KWAI CHUNG CABLE
+createProject|KWAI CHUNG SEWAGE
+listProjects
+undo
+listProjects
+redo
+listProjects
+undo
+listProjects
+createProject|KWAI CHUNG SEWAGE
+listProjects
+
+startNewDay|02-Feb-2021
+listProjectStaff|P001
+assignProject|P001|All-rounder
+assignProject|P001|Gas+Oil Gang
+listProjectStaff|P001
+
+startNewDay|18-Feb-2021
+
+assignProject|P003|SW Experts|Andrew|Anson
+assignProject|P003|SW Experts|Aron|Andrew|Bob|Bill
+listProjectStaff|P003
+
+assignProject|P002|Multi-able
+assignProject|P004|All-rounder
+
+startNewDay|01-Mar-2021
+createExtensionProject|P002|Phase 2 for KC Cable
+createExtensionProject|P004|TW Gas Enhancement
+createProject|TAI WAI GAS
+
+startNewDay|04-Mar-2021
+createExtensionProject|P004|TW Gas Enhancement
+
+startNewDay|18-Mar-2021
+createExtensionProject|P003|KC Sewage Fixes 2021
+createExtensionProject|P003|Phase 2 for KC Sewage
+listProjects
+undo
+listProjects
+redo
+listProjects
+undo
+listProjects
+createExtensionProject|P003|Phase 2 for KC Sewage
+listProjects
+
+assignProject|P003-E2|SW Experts B|Ankie
+assignProject|P003-E2|SW Experts B|Andrew|Simon|Spencer|Ankie
+assignProject|P003-E2|SW Experts B|Andrew|Alice|Spencer
+assignProject|P003-E2|SW Experts B|Andrew
+
+listProjectStaff|P003-E1
+listProjectStaff|P003-E2
+
+startNewDay|22-Mar-2021
+assignProject|P004|Gas+Oil Gang
+assignProject|P004-E1|Gas+Oil Gang
+
+startNewDay|25-Mar-2021
+markCompletion|P001
+markCompletion|P001
+markCompletion|P003-E3
+markCompletion|P003-E1
+markCompletion|P003
+
+listTeams
+listProjects
+listTeamProjects
+listStaffParticipations

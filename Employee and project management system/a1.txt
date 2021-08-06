@@ -1,0 +1,11 @@
+startNewDay|01-Jan-2021
+
+listEmployees
+
+hire|Bob
+hire|Adam
+hire|Gabriel
+hire|Samuel
+hire|Peter
+
+listEmployees

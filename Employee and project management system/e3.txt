@@ -1,0 +1,27 @@
+startNewDay|01-Jan-2021
+
+hire|Adam
+hire|Gabriel
+
+setupTeam|All-rounder|Adam
+setupTeam|Gas+Oil Gang|Gabriel
+
+createProject|TSUEN WAN GAS
+createProject|TAI WAI GAS
+createProject|KWAI CHUNG SEWAGE
+
+startNewDay|18-Mar-2021
+createExtensionProject|P004|TW Gas Enhancement
+createExtensionProject|P002|TW Gas Enhancement
+startNewDay|20-Mar-2021
+createExtensionProject|P002|TW Gas Enh. II
+
+startNewDay|22-Mar-2021
+markCompletion|P002-E1
+assignProject|P002-E1|Gas+Oil Gang
+startNewDay|28-Mar-2021
+markCompletion|P002-E1
+markCompletion|P002-E1
+
+listProjects
+listTeamProjects

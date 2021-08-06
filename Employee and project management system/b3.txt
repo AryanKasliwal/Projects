@@ -1,0 +1,40 @@
+startNewDay|01-Jan-2021
+
+hire|Bob
+hire|Adam
+hire|Gabriel
+hire|Peter
+
+hire|Andrew
+hire|Steven
+hire|Spencer
+
+joinTeam|SW Experts|Steven
+setupTeam|SW Experts|Samuel 
+hire|Samuel
+setupTeam|SW Experts|Samuel 
+setupTeam|SW Experts|Andrew 
+joinTeam|SW Experts|Steven
+
+startNewDay|05-Feb-2021
+setupTeam|Gas+Oil Gang|Samuel
+setupTeam|Gas+Oil Gang|Steven
+setupTeam|Gas+Oil Gang|Gabriel
+
+joinTeam|SW Experts|Simon
+hire|Simon
+joinTeam|SW Experts|Simon
+
+undo
+undo
+listTeams
+undo
+undo
+listTeams
+redo
+redo
+listTeams
+redo
+redo
+listTeams
+listEmployees
