@@ -1,0 +1,57 @@
+Linked list:
+	done:
+		815 0.253 seconds
+		819 0.868 seconds
+	Left:
+		814 Time Limit Exceeded===== Make a linked graph
+=============================================
+DONE Stack:
+	done:
+		751 0.005 seconds
+		755 0.078 seconds
+		272 0.191 seconds
+=============================================
+DONE Queue:
+	done:
+		826 0.006 seconds
+		825 0.618 seconds
+=============================================
+DONE Tree: 
+	done:
+		749 0.013 seconds
+		820 0.009 seconds
+		821 0.238 seconds
+		822 2.188 seconds
+=============================================
+DONE Hash Map:
+	done:
+		824 0.450 seconds
+		836 0.552 seconds
+		823 1.095 seconds
+=============================================
+DONE Miscellaneous:
+	done:
+		741 0.614 seconds
+		835 0.159 seconds
+=============================================
+Disjoint Set:
+	done:
+		832 0.019 seconds
+		834 0.707 seconds
+	left:
+		833 wrong answer
+=============================================
+DONE Heap:
+	done:
+		757 0.335 seconds
+		829 0.294 seconds
+		827 0.237 seconds
+=============================================
+DONE Graph:
+	done:
+		830 0.029 seconds
+		831 0.087 seconds
+============================================
+Sort:
+	left:
+		828 not attempted
