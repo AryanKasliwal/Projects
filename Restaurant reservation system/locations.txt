@@ -1,0 +1,5 @@
+MongKok,50
+Sham Shui Po,100
+Kowloon Tong,70
+Kowloon Bay,120
+Central,200

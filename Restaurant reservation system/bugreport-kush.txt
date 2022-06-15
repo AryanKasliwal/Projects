@@ -1,0 +1,39 @@
+bug report - Reader class is throwing file errors for menu and location
+Issue was that Restraunt class did not implement addFood method properly and Reader was searching for wrong file and reader used .next() instead of nextLine() because full line was needed
+
+tickmins bug *Utkarsh*
+order of operations was wrong
+hour was being wronly incremeted due to double adding tick
+
+tick mins and hours mod issue *Utkarsh*
+opperator precendance issue, mod was happening before addition instead of after, giving incorrect result
+
+location class calcccurrentcapcacity *Utkarsh*
+was giving free seats instead of occupied seats (due to implementation result needed to be inverted)
+
+reading scanner bug
+-input was stuck in inf loop for reading food options
+
+Clock Iterator *Utkarsh*
+iternator.next was called twice casuing a double tick getinterval function
+
+
+clock Iterator 1 *Utkarsh*, 
+is missing the first value, fixed by manually adding the first value
+
+Clock Iterator 2 *utkarsh*, 
+Due to comparision logic error, garbarbage intervals were being recorded,
+
+Clock Iterator 3 *Utkarsh*, 
+last set of hashmap wasn't being checked. Added a manual if check for it
+Originally to fix the third bug, second bug was found
+
+Clock Iterator 4 *Utkarsh*,
+Fixed the root cause ie. clock's iterator by returning initial value of clock
+
+string format in bill was using floats but being passed int instead in showbill fixed by changing to int
+
+clock iterator was using the system clock to tick instead of a clone so the system time would be set to 11pm after 1 reservation was made. solved by cloning system clock instead
+
+
+fixed issue where ExInvalidClockrange would show mins<0 with a single 0 instead of 09;

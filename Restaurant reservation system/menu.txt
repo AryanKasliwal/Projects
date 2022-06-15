@@ -1,0 +1,18 @@
+Appetizer
+Cesar Salad,7,20
+Garlic Bread,3,10
+Mushroom Soup,6,40
+Sausage,5,10
+Chicken Fingers,10,15
+Main Course
+Cheese Pizza,20,50
+Spaghetti,15,35
+Doria,10,27
+Baked Chicken,5,25
+Risotto,10,29
+Dessert
+Chocolate Ice Cream,5,30
+Vanilla Ice Cream,5,30
+Ice Cream Cake,30,100
+Pudding,5,20
+Tiramisu,5,18

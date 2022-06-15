@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./PSNR_Assignment2/PSNR_Python"
+    ]
+}
