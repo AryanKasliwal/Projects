@@ -4,3 +4,6 @@
 [submodule "Kafka-Transaction-System"]
 	path = Kafka-Transaction-System
 	url = https://github.com/AryanKasliwal/Kafka-Transaction-System.git
+[submodule "Music_Generation_App_FYP"]
+	path = Music_Generation_App_FYP
+	url = https://github.com/AryanKasliwal/Music_Generation_App_FYP.git
