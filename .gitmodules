@@ -7,3 +7,6 @@
 [submodule "Music_Generation_App_FYP"]
 	path = Music_Generation_App_FYP
 	url = https://github.com/AryanKasliwal/Music_Generation_App_FYP.git
+[submodule "Final_Year_project"]
+	path = Final_Year_project
+	url = https://github.com/AryanKasliwal/Final_Year_project.git
