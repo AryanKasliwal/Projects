@@ -1,3 +1,6 @@
 [submodule "synpulse8-hiring-challenge"]
 	path = synpulse8-hiring-challenge
 	url = https://github.com/AryanKasliwal/synpulse8-hiring-challenge.git
+[submodule "Kafka-Transaction-System"]
+	path = Kafka-Transaction-System
+	url = https://github.com/AryanKasliwal/Kafka-Transaction-System.git
