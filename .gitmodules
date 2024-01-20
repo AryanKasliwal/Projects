@@ -10,3 +10,6 @@
 [submodule "Final_Year_project"]
 	path = Final_Year_project
 	url = https://github.com/AryanKasliwal/Final_Year_project.git
+[submodule "Problem-solving---algorithms"]
+	path = Problem-solving---algorithms
+	url = https://github.com/AryanKasliwal/Problem-solving---algorithms.git
