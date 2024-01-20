@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./FCND-Motion-Planning/udacidrone",
+        "./FCND-Motion-Planning/udacidrone"
+    ]
+}
